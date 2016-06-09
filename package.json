@@ -9,14 +9,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.15.1",
     "bootstrap": "^3.3.6",
     "browserify": "^13.0.1",
     "express": "^4.13.4",
     "guid": "0.0.12",
     "gulp": "^3.9.1",
+    "mongoose": "^4.4.20",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "reactify": "^1.1.1",
+    "underscore": "^1.8.3",
     "vinyl-source-stream": "^1.1.0"
   }
 }
