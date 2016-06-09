@@ -11,6 +11,7 @@ module.exports = React.createClass({
     addSchool:function(e){
         e.preventDefault();
         actions.addSchool(this.state);
+        this.setState({ name: '', address: '' });
     },
     handleInputChange:function(e){
       e.preventDefault();
