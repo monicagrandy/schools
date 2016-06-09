@@ -17,5 +17,5 @@ app.listen(7777, function () {
 });
 
 // Connect to mongodb database
-mongoose.connect("mongodb://localhost/schoolfinder");
+mongoose.connect("mongodb://monicagrandy:monica123@ds011314.mlab.com:11314/react-test");
 console.log("connected to mongodb")
